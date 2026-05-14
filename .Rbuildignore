@@ -3,3 +3,6 @@
 ^project\.Rcheck$
 ^project.*\.tar\.gz$
 ^project.*\.tgz$
+^onhpackage\.Rcheck$
+^onhpackage.*\.tar\.gz$
+^onhpackage.*\.tgz$
