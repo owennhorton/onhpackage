@@ -6,3 +6,4 @@
 ^onhpackage\.Rcheck$
 ^onhpackage.*\.tar\.gz$
 ^onhpackage.*\.tgz$
+^LICENSE\.md$
