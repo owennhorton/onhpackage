@@ -16,5 +16,8 @@ A plot with the theme added when passed with ggplot2 (centralized plot title, gr
 Academic theme in addition to default ggplot2 themes
 }
 \examples{
-theme_academic(base_size = 14)
+library(ggplot2)
+p <- ggplot(data = mtcars) + geom_point(aes(x = mpg, y = hp)) +
+labs(title = "plot_title")
+p + theme_academic()
 }

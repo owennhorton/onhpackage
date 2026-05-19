@@ -7,7 +7,10 @@
 #' @export
 #'
 #' @examples
-#' theme_academic(base_size = 14)
+#' library(ggplot2)
+#' p <- ggplot(data = mtcars) + geom_point(aes(x = mpg, y = hp)) +
+#' labs(title = "plot_title")
+#' p + theme_academic()
 theme_academic <- function(base_size = 12)
 {
   ggplot2::theme_classic(base_size = base_size) +
