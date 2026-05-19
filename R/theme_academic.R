@@ -13,7 +13,7 @@
 #' p + theme_academic()
 theme_academic <- function(base_size = 12)
 {
-  checkmate::assert_number(base_size)
+  checkmate::assert_number(base_size, lower = 0)
 
   ggplot2::theme_classic(base_size = base_size) +
     ggplot2::theme(
