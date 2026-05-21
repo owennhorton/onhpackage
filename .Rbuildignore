@@ -7,3 +7,4 @@
 ^onhpackage.*\.tar\.gz$
 ^onhpackage.*\.tgz$
 ^LICENSE\.md$
+^data-raw$
