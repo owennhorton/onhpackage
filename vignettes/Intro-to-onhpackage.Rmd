@@ -51,7 +51,3 @@ labs(title = "Faster Reaction Times Correlate with Higher Scores",
 x = "Reaction Time (seconds)", y = "Scaled Test Score (0 to 1)") +
 theme_academic(base_size = 14)
 ```
-
-```{r setup}
-library(onhpackage)
-```
