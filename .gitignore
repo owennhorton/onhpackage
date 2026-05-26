@@ -8,3 +8,6 @@ project*.tgz
 onhpackage.Rcheck/
 onhpackage*.tar.gz
 onhpackage*.tgz
+inst/doc
+/doc/
+/Meta/
